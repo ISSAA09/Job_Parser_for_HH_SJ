@@ -7,8 +7,11 @@
 ## Установка
 
 1. Клонируйте репозиторий на локальную машину:
-
-      git clone https://github.com/yourusername/job-parser.git
+   #### HTTPS:
+      git clone https://github.com/ISSAA09/Job_Parser_for_HH_SJ.git
+   ##### или
+   #### SSH:
+      git clone git@github.com:ISSAA09/Job_Parser_for_HH_SJ.git
    
 
 2. Установите зависимости, выполнив команду:
