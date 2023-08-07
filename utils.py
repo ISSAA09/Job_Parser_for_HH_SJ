@@ -52,6 +52,7 @@ def user_interaction():
             print(Vacancy(**vacancy))
         print(len(top_vac))
         print('Чтобы продолжить поиск вакансий нажмите "enter"\nДля завершения наберите "close"')
-        storage.remove_all_vacancies()
         if input() == 'close':
             break
+        else:
+            storage.remove_all_vacancies()
